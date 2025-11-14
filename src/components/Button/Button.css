@@ -1,0 +1,9 @@
+.button {
+  display: block;
+  background: rgb(123, 110, 246);
+  color: #fff;
+  border: none;
+  font-family: inherit;
+  font-size: 12px;
+  padding: 1em 2em;
+}
