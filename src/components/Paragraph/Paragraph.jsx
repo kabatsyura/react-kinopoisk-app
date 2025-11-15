@@ -1,4 +1,10 @@
+import "./Paragraph.css";
+
 export function Paragraph({ text, fontSize }) {
   const size = fontSize || "20px";
-  return <p style={{ fontSize: size }}>{text}</p>;
+  return (
+    <p className="paragraph" style={{ fontSize: size }}>
+      {text}
+    </p>
+  );
 }
