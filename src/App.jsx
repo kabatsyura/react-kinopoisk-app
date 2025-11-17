@@ -7,6 +7,9 @@ import { SearchForm } from "./components/SearchForm/SearchForm";
 import { NavBarLayout } from "./layouts/NavBarLayout/NavBarLayout";
 import { Logo } from "./components/Logo/Logo";
 import { NavBar } from "./components/NavBar/NavBar";
+import { FilmListLayout } from "./layouts/FilmLIstLayout/FilmListLayout";
+import { FilmCard } from "./components/FIlmCard/FilmCard";
+import { filmsData } from "./data/films";
 
 function App() {
   return (
@@ -25,6 +28,11 @@ function App() {
         />
         <SearchForm placeholder={"Введите название"} />
       </HeaderLayout>
+      <FilmListLayout>
+        {filmsData.map((film) => (
+          <FilmCard film={film} />
+        ))}
+      </FilmListLayout>
     </>
   );
 }
