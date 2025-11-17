@@ -1,0 +1,70 @@
+.film-card__body {
+  display: flex;
+  flex-direction: column;
+  height: 510px;
+  width: 282px;
+  border-radius: 12px;
+  background-color: rgba(32, 40, 62, 0.8);
+}
+
+.film-card__poster {
+  position: relative;
+  height: 400px;
+  width: 266px;
+  top: 8px;
+  left: 8px;
+}
+
+.film-card__rating {
+  position: relative;
+  top: -384px;
+  left: 16px;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+  padding: 4px 8px;
+  width: 48px;
+  height: 32px;
+  gap: 4px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.65);
+  
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(255, 173, 73, 1);
+}
+
+.film-card__header {
+  padding: 8px;
+  color: rgba(235, 238, 245, 1);
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 2%;
+  margin: 0px 8px;
+}
+
+.film-card__button {
+  background-color: inherit;
+  border: none;
+  color: rgba(123, 110, 246, 1);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin: 0px 8px 16px 8px;
+
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+
+.film-card__button:hover {
+  background-color: inherit;
+  border: none;
+  color: rgba(123, 110, 246, 0.5);
+}
