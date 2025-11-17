@@ -11,3 +11,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+body {
+  width: 1440px;
+  height: 100vh;
+}
