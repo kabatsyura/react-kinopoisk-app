@@ -1,0 +1,9 @@
+.nav-bar-layout {
+  margin: 0;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+}

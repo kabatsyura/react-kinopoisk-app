@@ -1,0 +1,9 @@
+.header-layout {
+  position: absolute;
+  top: 160px;
+  left: 120px;
+  width: 588px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

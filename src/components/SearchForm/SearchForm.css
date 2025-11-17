@@ -1,0 +1,18 @@
+.search-form {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+
+.search-form__input {
+  background-color: inherit;
+  border-radius: 10px;
+  width: 308px;
+  height: 56px;
+  padding: 0px 10px 0px 36px;
+  color: inherit;
+  border: 1px solid rgb(50, 59, 84);
+  background: url('/search-icon.svg') no-repeat 10px center;
+  background-size: 16px 16px;
+  color: rgb(143, 149, 169);
+}
