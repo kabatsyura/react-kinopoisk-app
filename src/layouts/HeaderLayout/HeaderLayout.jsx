@@ -1,5 +1,5 @@
-import "./HeaderLayout.css";
+import styles from "./HeaderLayout.module.css";
 
 export function HeaderLayout({ children }) {
-  return <div className="header-layout">{children}</div>;
+  return <div className={styles["header-layout"]}>{children}</div>;
 }

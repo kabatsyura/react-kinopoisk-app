@@ -1,20 +1,20 @@
-import "./NavBar.css";
+import styles from "./NavBar.module.css";
 
 export function NavBar() {
   return (
-    <div className="nav-bar">
-      <a href="#" className="nav-bar__link">
+    <div className={styles["nav-bar"]}>
+      <a href="#" className={styles["nav-bar__link"]}>
         Поиск фильмов
       </a>
-      <a href="#" className="nav-bar__link">
+      <a href="#" className={styles["nav-bar__link"]}>
         Мои фильмы
       </a>
-      <a href="#" className="nav-bar__link-login">
-        <span className="nav-bar__link-login-text">Войти</span>
+      <a href="#" className={styles["nav-bar__link-login"]}>
+        <span className={styles["nav-bar__link-login-text"]}>Войти</span>
         <img
           src="/login-icon.svg"
           alt="Авторизация"
-          className="nav-bar__link-login-icon"
+          className={styles["nav-bar__link-login-icon"]}
         />
       </a>
     </div>
