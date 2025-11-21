@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "../Button/Button";
-import "./SearchForm.css";
+import styles from "./SearchForm.module.css";
 
 export function SearchForm({ placeholder }) {
   const [inputData, setInputData] = useState("");
@@ -17,9 +17,9 @@ export function SearchForm({ placeholder }) {
   };
 
   return (
-    <form className="search-form" onSubmit={searchHandle}>
+    <form className={styles["search-form"]} onSubmit={searchHandle}>
       <input
-        className="search-form__input"
+        className={styles["search-form__input"]}
         type="search"
         name="search"
         value={inputData}
